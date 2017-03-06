@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>BDD with Jasmine and Karma</title>
+    <style>
+        #container {
+            width: 500px;
+            margin-top: 50px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        table {
+            width: 200px;
+            height: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        td {
+            padding:20px;
+            background-color: lightgrey;
+            cursor: hand;
+        }
+        td .display{
+            cursor: none;
+        }
+        #instructions {
+            margin-top: 60px;
+        }
+    </style>
+    <script type="text/jvascript">
+
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <table>
+            <tr class="display">
+                <td colspan=4 class="display"><span id="display">summa här</span></td>
+            </tr>
+            <tr>
+                <td><span class="button" id="button7">7</span></td>
+                <td><span class="button" id="button8">8</span></td>
+                <td><span class="button" id="button9">9</span></td>
+                <td><span class="button" id="buttonClear">C</span></td>
+            </tr>
+            <tr>
+                <td><span class="button" id="button4">4</span></td>
+                <td><span class="button" id="button5">5</span></td>
+                <td><span class="button" id="button6">6</span></td>
+                <td><span class="button" id="buttonPlus">+</span></td>
+            </tr>
+            <tr>
+                <td><span class="button" id="button1">1</span></td>
+                <td><span class="button" id="button2">2</span></td>
+                <td><span class="button" id="button3">3</span></td>
+                <td class="button" id="sum">=</td>
+            </tr>
+        </table>
+
+        <div id="instructions">
+            <span>Rules for the calculator:
+        <ul>
+            <li>Pressing a number or operation(+), it should be added to the text in the display.</li>
+            <li>Pressing sum(=) it should send the value in the display to a calculator JS function that adds up the numbers.</li>
+            <li>Pressing C clears the display.</li>
+        </ul>
+    </span>
+        </div>
+    </div>
+</body>
+
+</html>
