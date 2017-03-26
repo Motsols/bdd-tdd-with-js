@@ -9,7 +9,6 @@
             margin-right: auto;
             margin-left: auto;
         }
-        
         table {
             width: 200px;
             height: 200px;
@@ -18,19 +17,19 @@
         }
         td {
             padding:20px;
-            background-color: lightgrey;
             cursor: hand;
+            border-color: lightgrey;
+            border-width: 1px;
+            border-style: solid;
         }
-        td .display{
-            cursor: none;
+        .button:hover {
+            background-color: lightgrey;
         }
-        #instructions {
-            margin-top: 60px;
+        .display{
+            cursor: default;
+            background-color: white;
         }
     </style>
-    <script type="text/jvascript">
-
-    </script>
 </head>
 
 <body>
@@ -40,27 +39,27 @@
                 <td colspan=4 class="display"><span id="display">summa här</span></td>
             </tr>
             <tr>
-                <td><span class="button" id="button7">7</span></td>
-                <td><span class="button" id="button8">8</span></td>
-                <td><span class="button" id="button9">9</span></td>
-                <td><span class="button" id="buttonClear">C</span></td>
+                <td class="button" id="button7">7</td>
+                <td class="button" id="button8">8</td>
+                <td class="button" id="button9">9</td>
+                <td class="button" id="buttonClear">C</td>
             </tr>
             <tr>
-                <td><span class="button" id="button4">4</span></td>
-                <td><span class="button" id="button5">5</span></td>
-                <td><span class="button" id="button6">6</span></td>
-                <td><span class="button" id="buttonPlus">+</span></td>
+                <td class="button" id="button4">4</td>
+                <td  class="button" id="button5">5</td>
+                <td  class="button" id="button6">6</td>
+                <td  class="button" id="buttonPlus">+</td>
             </tr>
             <tr>
-                <td><span class="button" id="button1">1</span></td>
-                <td><span class="button" id="button2">2</span></td>
-                <td><span class="button" id="button3">3</span></td>
+                <td  class="button" id="button1">1</td>
+                <td  class="button" id="button2">2</td>
+                <td  class="button" id="button3">3</td>
                 <td class="button" id="sum">=</td>
             </tr>
         </table>
 
+        <a id="toggleInstructions">Instructions <span id="minimize">-</span><span id="expand" style="display: none">+</span></a>
         <div id="instructions">
-            <span>Rules for the calculator:</span>
         <ul>
             <li>Pressing a number or operation(+), it should be added to the text in the display.</li>
             <li>Pressing sum(=) it should send the value in the display to a calculator JS function that adds up the numbers.</li>
@@ -69,5 +68,6 @@
         </div>
     </div>
 </body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
 </html>

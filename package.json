@@ -1,7 +1,7 @@
 {
-  "name": "bdd-with-jasmine-and-karma",
+  "name": "tdd-bdd-with-jasmine-and-karma",
   "version": "1.0.0",
-  "description": "BDD with Jasmine and Karma",
+  "description": "TDD/BDD with Jasmine and Karma",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "author": "Motsols",
   "license": "ISC",
   "devDependencies": {
-    "jasmine": "2.5.3",
+    "jasmine": "^2.5.3",
     "jasmine-core": "^2.5.2",
     "karma": "^1.5.0",
     "karma-chrome-launcher": "^2.0.0",
