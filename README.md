@@ -1,5 +1,8 @@
 # README
 
+Install packages
+`npm install`
+
 Install karma cli:  
 `npm install -g karma-cli`
 
