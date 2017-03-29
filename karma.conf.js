@@ -19,7 +19,7 @@ module.exports = function(config) {
     files: [
       'index.html',
       'js/*.js',
-      'test/**/*Spec.js'
+      'spec/**/*Spec.js'
     ],
 
 
