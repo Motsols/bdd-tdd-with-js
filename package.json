@@ -1,7 +1,7 @@
 {
-  "name": "tdd-bdd-with-js",
+  "name": "bdd-tdd-with-js",
   "version": "1.0.0",
-  "description": "TDD/BDD with js",
+  "description": "BDD/TDD with js",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,9 +9,6 @@
   "author": "Motsols",
   "license": "ISC",
   "devDependencies": {
-    "cucumber": "^1.3.2",
-    "cucumber-expressions": "^3.0.0",
-    "cucumber-tag-expressions": "^1.0.0",
     "jasmine": "^2.5.3",
     "jasmine-core": "^2.5.2",
     "karma": "^1.5.0",
