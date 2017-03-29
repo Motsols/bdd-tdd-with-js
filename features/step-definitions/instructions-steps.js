@@ -1,7 +1,7 @@
 module.exports = function () {
 
     this.When(/^I click on the instructions$/, function () {
-        helpers.loadPage('C:/code/Barebone-BDD-Jasmine-Karma/index.html');
+        helpers.loadPage('C:/code/bdd-tdd-with-js/index.html');
         // use a method on the page object which also returns a promise 
         return driver.wait(until.elementsLocated(by.id('toggleInstructions')), 5000).then(function(){
  
@@ -27,10 +27,6 @@ module.exports = function () {
             .then(function(e){
                 expect(e).to.equal('');
             });
-
-            //how expects can be written
-            expect(true).to.equal(true);
-            expect(true).to.not.equal(false);
         });
     });
 };

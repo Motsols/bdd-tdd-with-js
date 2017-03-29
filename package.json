@@ -1,7 +1,7 @@
 {
-  "name": "tdd-bdd-with-jasmine-and-karma",
+  "name": "tdd-bdd-with-js",
   "version": "1.0.0",
-  "description": "TDD/BDD with Jasmine and Karma",
+  "description": "TDD/BDD with js",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

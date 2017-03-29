@@ -1,4 +1,4 @@
-# Barebone-BDD-Jasmine-Karma
+# README
 
 Install karma cli:  
 `npm install -g karma-cli`
