@@ -1,22 +1,26 @@
 # BDD and TDD with javascript
 
+
 ## Getting started
-Install packages
+Install packages  
 `npm install`
 
 Install karma cli:  
-`npm install -g karma-cli`
+`npm install -g karma-cli` (Windows)
+`sudo npm install -g karma-cli` (Mac/Linux)
+
 
 Start karma server locally (this runs js unit tests (specs):  
 `karma start`  
 (Karma is now running automatically when you make changes that)
-To change the webdriver to a browser on your machine, check this link http://karma-runner.github.io/1.0/config/browsers.html
+[To change the browser karma uses, click here](http://karma-runner.github.io/1.0/config/browsers.html)
 
 To get BDD running, **update the URL** in features/step-definitions/instructions-steps.js:4 with the correct URL to your local index.html.
 
 Run BDD tests with  
-`node ./node_modules/selenium-cucumber-js/index.js -r ./features/reports -s ./features/step-definitions`
+`node ./node_modules/selenium-cucumber-js/index.js -r ./features/reports -s ./features/step-definitions`  
 To change the browser to test with, add this command to the line above: `-b [chrome/phantomjs/firefox/safari]`
+
 
 ## Your work
 Open index.html to see what you'll be working on.
@@ -33,10 +37,12 @@ Easy steps to start learning:
  - When you enter 1+1 and click =, then the number 2 will show in the display
  - And so on
 
+
 ## Recommended books
-How to write Gherkin (the text in the .feature files)
-[The cucumber book @ Amazon] (https://www.amazon.com/Cucumber-Book-Behaviour-Driven-Development-Programmers/dp/1934356808/ref=sr_1_2?ie=UTF8&qid=1490899325&sr=8-2&keywords=cucumber+bdd)
-[The cucumber book @ Adlibris] (http://www.adlibris.com/se/bok/the-cucumber-book-behaviour-driven-development-for-testers-and-developers-9781680502381)
+How to write Gherkin (the text in the .feature files)  
+[The cucumber book @ Amazon](https://www.amazon.com/Cucumber-Book-Behaviour-Driven-Development-Programmers/dp/1934356808/ref=sr_1_2?ie=UTF8&qid=1490899325&sr=8-2&keywords=cucumber+bdd)  
+[The cucumber book @ Adlibris](http://www.adlibris.com/se/bok/the-cucumber-book-behaviour-driven-development-for-testers-and-developers-9781680502381)  
+
 
 ## Docs for the details
 
@@ -47,7 +53,7 @@ https://cucumber.io/docs/reference
 Cucumber (the tool to automate gherkin features to the step definitions)  
 https://cucumber.io/docs  
 
-Cucumber-selenium-js (the tools to run the tests)
+Cucumber-selenium-js (the tools to run the tests)  
 https://www.npmjs.com/package/selenium-cucumber-js 
 
 Selenium Webdriver (telling the browser how and what to do)  
