@@ -10,9 +10,9 @@ Install karma cli:
 Start karma server locally (this runs js unit tests (specs):  
 `karma start`  
 (Karma is now running automatically when you make changes that)
-
-To get BDD running, update features/step-definitions/instructions-steps.js:4 with the correct URL to your local index.html.
 To change the webdriver to a browser on your machine, check this link http://karma-runner.github.io/1.0/config/browsers.html
+
+To get BDD running, **update the URL** in features/step-definitions/instructions-steps.js:4 with the correct URL to your local index.html.
 
 Run BDD tests with  
 `node ./node_modules/selenium-cucumber-js/index.js -r ./features/reports -s ./features/step-definitions`
