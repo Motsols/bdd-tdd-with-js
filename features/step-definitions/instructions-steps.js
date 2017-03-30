@@ -29,4 +29,12 @@ module.exports = function () {
             });
         });
     });
+
+    this.When(/^I write "([^"]*)"$/, function (arg1, callback) {
+         // Write code here that turns the phrase above into concrete actions
+         //Just to show how to use inparameters.
+         // arg1 = the text to write.
+         //find the text field and use a function 'send keys' or similar to enter the value arg1
+        callback();
+       });
 };
