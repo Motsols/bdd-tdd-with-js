@@ -1,4 +1,6 @@
 # BDD and TDD with javascript
+## Your work
+Implement the calculator step by step utilizing BDD and TDD.
 
 ## Getting started
 
