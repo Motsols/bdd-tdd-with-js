@@ -1,6 +1,6 @@
 # BDD and TDD with javascript
 ## Your work
-Implement the calculator step by step utilizing BDD and TDD.
+Implement the calculator in index.html step by step utilizing BDD and TDD.
 
 ## Getting started
 
