@@ -6,13 +6,13 @@ Install packages
 `npm install`
 
 Install karma cli:  
-`npm install -g karma-cli` (Windows)
+`npm install -g karma-cli` (Windows)  
 `sudo npm install -g karma-cli` (Mac/Linux)
 
 
 Start karma server locally (this runs js unit tests (specs):  
 `karma start`  
-(Karma is now running automatically when you make changes that)
+(Karma is now running automatically when you make changes that)  
 [To change the browser karma uses, click here](http://karma-runner.github.io/1.0/config/browsers.html)
 
 To get BDD running, **update the URL** in features/step-definitions/instructions-steps.js:4 with the correct URL to your local index.html.
