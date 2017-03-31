@@ -19,8 +19,9 @@ To get BDD running, **update the URL** in features/step-definitions/instructions
 
 Run BDD tests with  
 `node ./node_modules/selenium-cucumber-js/index.js -r ./features/reports -s ./features/step-definitions`  
-To change the browser to test with, add this command to the line above: `-b [chrome/phantomjs/firefox/safari]`
+To change the browser to test with, add this command to the line above: `-b [phantomjs/firefox/safari]` (chrome is default browser)
 
+[Watch this 4-minute video to get an understanding of BDD](https://www.youtube.com/watch?v=VS6EEUVZGLE)
 
 ## Your work
 Open index.html to see what you'll be working on.
@@ -32,7 +33,7 @@ Easy steps to start learning:
    2. Run the command for the BDD tests (below) to generate step definitions
    3. Add these steps to /features/step-definitions/instructions-steps.js and implement the first one
    4. Add a unit test to /spec/exampleSpec.js and run it with karma start
-   5. Implement a testable javascript function and test it with Jasmine (tip: Jasmine SpyOn)
+   5. Implement a testable javascript function and test it with Jasmine (tip: SpyOn)
    6. Continue with tdd tests until you have fulfilled the first step in BDD. Then continue with the next step until the scenario is complete. Then write more scenarios (such as the one below) until the calculator is working.
  - When you enter 1+1 and click =, then the number 2 will show in the display
  - And so on
